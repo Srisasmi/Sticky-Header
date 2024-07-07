@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Travel - Wanderlust Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="https://img.freepik.com/free-photo/background-with-plane-blank-space-father-s-day_23-2147615966.jpg?ga=GA1.1.730537841.1718900211&semt=ais_hybrid" width="auto;">
+    <header class="sticky-header">
+        <h1>𝚆𝚊𝚗𝚍𝚎𝚛𝚕𝚜 𝚃𝚘𝚞𝚛</h1>
+        <nav class="top-right-nav">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#destinations">Destinations</a></li>
+                <li><a href="booking.html">Book Now</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="index.html#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="book" class="content-section">
+            <h2>Book Your Travel</h2>
+            <form class="booking-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+        
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+        
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+        
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+        
+                <input type="submit" value="Book Now">
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
